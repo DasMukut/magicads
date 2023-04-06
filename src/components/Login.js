@@ -11,7 +11,7 @@ const Login=()=>{
          localStorage.setItem("email", email);
          localStorage.setItem("password", password);
         //  console.log(localStorage.getItem("email"))
-         if(localStorage.getItem("email")==="magiccards@gmail.com" && localStorage.getItem("password")==="Abcd@1234"){
+         if(localStorage.getItem("email")==="magicads@gmail.com" && localStorage.getItem("password")==="magicads@1234"){
             localStorage.setItem("isLogIn",true);
             navigate("/cards");
          }else{
